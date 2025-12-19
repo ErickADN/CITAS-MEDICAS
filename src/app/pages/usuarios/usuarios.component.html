@@ -1,1 +1,36 @@
-<p>usuarios works!</p>
+
+<div class="container">
+  <h3 class="mb-4">Gestión de Usuarios</h3>
+
+  <div class="row g-4">
+    <div class="col-md-4">
+      <app-button-option-menu
+        title="Registrar Usuario"
+        description="Crear un nuevo usuario en el sistema"
+        icon="bi bi-person-plus"
+        color="success"
+        route="/usuarios/registrar">
+      </app-button-option-menu>
+    </div>
+
+    <div class="col-md-4">
+      <app-button-option-menu
+        title="Modificar Usuario"
+        description="Editar datos de usuarios existentes"
+        icon="bi bi-pencil-square"
+        color="warning"
+        route="/usuarios/editar">
+      </app-button-option-menu>
+    </div>
+
+    <div class="col-md-4">
+      <app-button-option-menu
+        title="Listar Usuarios"
+        description="Ver todos los usuarios registrados"
+        icon="bi bi-people"
+        color="warning"
+        route="/usuarios/listar">
+      </app-button-option-menu>
+    </div>
+  </div>
+</div>
